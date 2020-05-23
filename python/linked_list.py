@@ -47,7 +47,7 @@ class LinkedList:
         node = self.head
         while node:
             if node.data == data:
-                return node
+                return node.data
             node = node.next
 
 
